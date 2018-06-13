@@ -6,5 +6,4 @@ Without utilizing any of the built-in methods available to your language, return
 Adjacent values might be horizontally, vertically, or diagonally connected.
 
 ## Solution
-<img src=>
-<img src=>
+<img src=https://raw.githubusercontent.com/DevinTyler26/data-structures-and-algorithms/array_reverse/assests/largestProduct.JPG>
