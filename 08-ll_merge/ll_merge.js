@@ -1,4 +1,4 @@
-mergeList() = () => {
+mergeList(one, two) = () => {
     let oneCurr = one.head;
     let twoCurr = two.head;
     let one_next;
