@@ -1,24 +1,28 @@
 'use strict';
 
-enqueue(val) = () => {
-    let st1 = [1, 2, 3];
-    let st2 = [];
+module.exports = exports = {};
 
-    while (!st1 === null){
-        st2.push(st1);
+class Queue {
+    constructor() {
+        this.st1 = [];
+        this.st2 = [];
     }
-    st1.push(val)
-    st1.push(st2);
-    return st1;
-}
+    enqueue(val) {
 
-dequeue() = () => {
-    let st1 = [1, 2, 3];
-    let st2 = [];
-
-    if (st1 === null){
-        return err;
+        while (!this.st1 === null){
+            st2.push(this.st1);
+        }
+        this.st1.push(val)
+        this.st1.push(this.st2);
+        return this.st1;
     }
-    st1.pop()
-    return st1;
+
+    dequeue() {
+
+        if (this.st1 === null){
+            return err;
+        }
+        this.st1.pop()
+        return this.st1;
+    }
 }
