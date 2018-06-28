@@ -1,8 +1,12 @@
 'use strict';
 
 nThFromEnd(n) = ()=> {
-    if(!head) {
+    if (!head) {
         return null;
+    
+    }
+    if (n === 0) {
+        
     }
 
     let listOne = head;
