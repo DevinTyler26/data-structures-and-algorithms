@@ -57,7 +57,7 @@ function breadthFirst(rootNode) {
   q.enqueue(rootNode);
   recurse(rootNode);
 
-  function recurse(node) {
+  function recurse() {
     if (q.stor.length === 0) return null;
     let popped = q.dequeue();
     console.log(popped.val);
