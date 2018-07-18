@@ -5,9 +5,7 @@ let string = 'Hi this string  will have a repeating word at some point in the st
 const repeatedWord = (str) => {
   let map = {};
   let output = null;
-  string = str.replace(/\./g,' ')
-  console.log(string)
-  let split = string.split(' ')
+  let split = str.replace(/\./g,' ').split(' ')
 
   let i = 0;
   while(output === null){
@@ -17,5 +15,4 @@ const repeatedWord = (str) => {
   }
   console.log(output)
 }
-
 repeatedWord(string);
