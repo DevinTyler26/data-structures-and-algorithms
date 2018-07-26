@@ -10,4 +10,4 @@ Ensure your tests are passing before you submit your solution.
 
 
 ## Solution
-<img src=https://raw.githubusercontent.com/DevinTyler26/data-structures-and-algorithms/master/assests/find_island.png>
+<img src=https://raw.githubusercontent.com/DevinTyler26/data-structures-and-algorithms/093e94ec4cf544c9f9e4f0d82d00ca3cf7c6acd4/assests/find_island.png>
