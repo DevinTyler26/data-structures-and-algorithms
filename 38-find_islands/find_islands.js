@@ -15,7 +15,7 @@ const numberOfIslands = (map) => {
       if(map[row][col] === 1){
         //if we come across a 1 in the map, we need to increment our island count
         number++;
-        //then turn all of its adjecent values to zero so we dont count them as a separate island later on in our code
+        //then turn all of its adjacent values to zero so we dont count them as a separate island later on in our code
         turnToZero(map, row, col);
       }
     }
@@ -23,7 +23,7 @@ const numberOfIslands = (map) => {
   return number;
 }
 
-//This method is recursive and changes all adjencent values to the give map location to zero. It will get called when we run into a 1 in the map with our above  find island function
+//This method is recursive and changes all adjacent values to the give map location to zero. It will get called when we run into a 1 in the map with our above  find island function
 const turnToZero = (map, row, col) => {
   if(row >= map.length || col >= map[0].length || row < 0 || col < 0 || map[row][col] == 0) return;
   
